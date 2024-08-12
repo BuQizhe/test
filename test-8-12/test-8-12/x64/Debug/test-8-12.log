@@ -1,0 +1,12 @@
+﻿  test.cpp
+D:\编程语言\code\everyday\test-8-12\test-8-12\test.cpp(44,6): warning C4101: “i”: 未引用的局部变量
+D:\编程语言\code\everyday\test-8-12\test-8-12\test.cpp(136,6): warning C4101: “x”: 未引用的局部变量
+D:\编程语言\code\everyday\test-8-12\test-8-12\test.cpp(339,6): warning C4101: “i”: 未引用的局部变量
+D:\编程语言\code\everyday\test-8-12\test-8-12\test.cpp(563,13): warning C4101: “StuAge”: 未引用的局部变量
+D:\编程语言\code\everyday\test-8-12\test-8-12\test.cpp(563,35): warning C4101: “StuClass”: 未引用的局部变量
+D:\编程语言\code\everyday\test-8-12\test-8-12\test.cpp(562,6): warning C4101: “i”: 未引用的局部变量
+D:\编程语言\code\everyday\test-8-12\test-8-12\test.cpp(563,49): warning C4101: “StuGender”: 未引用的局部变量
+D:\编程语言\code\everyday\test-8-12\test-8-12\test.cpp(764,12): warning C4101: “p”: 未引用的局部变量
+D:\编程语言\code\everyday\test-8-12\test-8-12\test.cpp(803,1): warning C4715: “Delete”: 不是所有的控件路径都返回值
+D:\编程语言\code\everyday\test-8-12\test-8-12\test.cpp(900,1): warning C4715: “HelloKey_Result”: 不是所有的控件路径都返回值
+  test-8-12.vcxproj -> D:\编程语言\code\everyday\test-8-12\x64\Debug\test-8-12.exe
