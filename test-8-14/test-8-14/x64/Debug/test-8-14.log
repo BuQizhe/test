@@ -1,0 +1,7 @@
+﻿  test.c++
+D:\编程语言\code\everyday\test-8-14\test-8-14\test.c++(266,16): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+D:\编程语言\code\everyday\test-8-14\test-8-14\test.c++(292,16): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+D:\编程语言\code\everyday\test-8-14\test-8-14\test.c++(318,16): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+D:\编程语言\code\everyday\test-8-14\test-8-14\test.c++(344,16): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+D:\编程语言\code\everyday\test-8-14\test-8-14\test.c++(74,1): error C4716: “Search”: 必须返回一个值
+D:\编程语言\code\everyday\test-8-14\test-8-14\test.c++(417,1): error C4716: “Try”: 必须返回一个值
