@@ -1,0 +1,3 @@
+﻿  test.cpp
+D:\编程语言\code\everyday\test-9-4\test-9-4\test.cpp(144,1): warning C4172: 返回局部变量或临时变量的地址: d
+  test-9-4.vcxproj -> D:\编程语言\code\everyday\test-9-4\x64\Debug\test-9-4.exe
