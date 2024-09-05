@@ -1,0 +1,4 @@
+﻿  Date.cpp
+  Test.cpp
+  正在生成代码...
+D:\编程语言\code\everyday\test-9-5\test-9-5\Date.cpp(88,1): error C4716: “Date::operator-=”: 必须返回一个值
