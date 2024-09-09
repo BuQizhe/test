@@ -1,0 +1,4 @@
+﻿  test.cpp
+D:\编程语言\code\everyday\test-9-9\test-9-9\test.cpp(428,26): warning C4244: “=”: 从“long double”转换到“__int64”，可能丢失数据
+D:\编程语言\code\everyday\test-9-9\test-9-9\test.cpp(74,19): warning C4101: “x”: 未引用的局部变量
+  test-9-9.vcxproj -> D:\编程语言\code\everyday\test-9-9\x64\Debug\test-9-9.exe
