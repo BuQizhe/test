@@ -1,0 +1,7 @@
+﻿  test.cpp
+D:\编程语言\code\everyday\test-9-27\test-9-27\test.cpp(58,13): error C2065: “CA”: 未声明的标识符
+D:\编程语言\code\everyday\test-9-27\test-9-27\test.cpp(58,11): error C2512: “CDate”: 没有合适的默认构造函数可用
+      D:\编程语言\code\everyday\test-9-27\test-9-27\test.cpp(5,7):
+      参见“CDate”的声明
+  
+D:\编程语言\code\everyday\test-9-27\test-9-27\test.cpp(59,11): error C2065: “CA”: 未声明的标识符
