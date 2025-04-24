@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>抽奖</title>
+  <style>
+    .wrapper {
+      width: 840px;
+      height: 420px;
+      background: url(imgǜ.jpg) no-repeat center / cover;
+      padding: 100px 250px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <strong>幸运抽奖</strong>
+    <h1>一等奖：<span id="one">???</span></h1>
+    <h3>二等奖：<span id="two">???</span></h3>
+    <h5>三等奖：<span id="three">???</span></h5>
+  </div>
+
+  <script>
+    // 1.声明数组
+    const personArr = ['周杰伦', '陶喆', '李健', '许嵩', '蔡徐坤'];
+
+    // 抽奖函数
+    function drawWinner() {
+      // 生成随机索引
+      const randomIndex = Math.floor(Math.random() * personArr.length);
+      // 返回选中的名字和索引以便删除
+      return { name: personArr[randomIndex], index: randomIndex };
+    }
+
+    // 选取获奖者
+    const firstPrize = drawWinner();
+    document.querySelector('#one').innerHTML = firstPrize.name;
+    personArr.splice(firstPrize.index, 1); // 从数组中移除获奖者
+
+    const secondPrize = drawWinner();
+    document.querySelector('#two').innerHTML = secondPrize.name;
+    personArr.splice(secondPrize.index, 1); // 从数组中移除获奖者
+
+    const thirdPrize = drawWinner();
+    document.querySelector('#three').innerHTML = thirdPrize.name;
+    personArr.splice(thirdPrize.index, 1); // 从数组中移除获奖者
+  </script>
+</body>
+</html>
